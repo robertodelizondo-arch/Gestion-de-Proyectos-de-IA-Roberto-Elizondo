@@ -1,0 +1,6 @@
+id_muestra,categoria_clase,resolucion,fuente_origen
+1,gato,224x224,huggingface_dataset
+2,perro,224x224,huggingface_dataset
+3,gato,224x224,huggingface_dataset
+4,perro,224x224,huggingface_dataset
+5,perro,224x224,huggingface_dataset
