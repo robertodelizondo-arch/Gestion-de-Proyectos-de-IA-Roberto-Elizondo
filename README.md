@@ -23,6 +23,12 @@ Durante la actividad se evaluaron y compararon tres arquitecturas distintas medi
 
 ---
 
+## Conclusiones
+Se comprueba que los modelos que están basados en Transformers (ViT) ofrecen mejor rendimiento en cuestión de precisión global, pero con latencia más alta. Por otro lado, las arquitecturas convolucionales optimizadas reducen de manera considerable los tiempos de respuesta.
+Se recomienda el modelo ConvNeXt-Tiny como la solución tras balancear precisión, costo computacional y latencia, y para escenarios de producción que requieren de respuestas en tiempo real sin sacrificar la composición estadística.
+El uso de pipelines estándar y un control más estricto de dependencias asegura que los resultados se pueden auditar y reproducir en cualquier entorno compatible.
+
+
 ## Estructura del Repositorio
 El repositorio se encuentra organizado de la siguiente manera para garantizar la reproducibilidad y el mantenimiento del prototipo[cite: 1, 2]:
 
