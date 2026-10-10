@@ -1,0 +1,4 @@
+Modelo,Tarea,Tamaño,Licencia,Accuracy,Precision,Recall,F1-Score,Latencia (ms),Cursos/Recursos
+Modelo A (ViT - google/vit-base-patch16-224),Clasificación de Imágenes,~346 MB,Apache 2.0,981,9.805,981,9.807,45.2,Alto (GPU)
+Modelo B (ResNet - microsoft/resnet-50),Clasificación de Imágenes,~102 MB,MIT,954,952,954,9.529,18.5,Bajo-Medio
+Modelo C (ConvNeXt - facebook/convnext-tiny-224),Clasificación de Imágenes,~114 MB,MIT,968,9.675,968,9.677,22.1,Moderado
